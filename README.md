@@ -24,8 +24,7 @@ RealEstateGenie/
 │   └── real_estate_cleaned.csv      # Cleaned dataset
 ├── scripts/
 │   └── clean_data.py                # Data preprocessing script
-├── docs/
-│   ├── system_architecture.png      # System architecture diagram
+├── docs/   ├
 │   └── documentation.pdf            # Full technical documentation
 ├── requirements.txt                 # Python dependencies
 └── README.md                        # Project overview
