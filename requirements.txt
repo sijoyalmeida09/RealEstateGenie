@@ -1,0 +1,41 @@
+# 📦 RealEstateGenie - Requirements.txt
+
+These are the required packages to run the RealEstateGenie application.
+
+---
+
+## 🛠 Essential Libraries
+
+streamlit>=1.25.0
+chromadb>=0.4.22
+pandas>=1.5.3
+torch>=2.0.1
+sentence-transformers>=2.2.2
+python-dotenv>=1.0.0
+transformers>=4.31.0
+groq>=0.2.0
+
+## ⚙️ Optional (Dev and Debugging)
+
+watchdog>=3.0.0
+
+---
+
+# 📋 Installation
+
+Create a virtual environment and install all dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+✅ Ensure your Python version is >=3.10.
+✅ Ensure you have an active Internet connection to fetch models if required.
+
+---
+
+# 🛡 Note
+- Some libraries like `torch` and `transformers` may automatically optimize for your local hardware (CPU or GPU).
+- If `chromadb` installation fails, install Visual C++ Build Tools (Windows) or GCC (Linux/Mac).
+
+---
